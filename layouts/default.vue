@@ -9,9 +9,10 @@
     </v-app-bar>
     <v-img height="600px" src="/banner6.png"></v-img>
     <v-main class="mt-0 pt-0">
-      <v-container>
         <nuxt />
-      </v-container>
+        <v-container>
+          teste
+        </v-container>
     </v-main>
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
       <v-list>

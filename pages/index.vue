@@ -1,5 +1,6 @@
 <template>
-  <v-row>
+<v-container fluid>
+  <v-row style="background-color: #bdd252">
     <v-col cols="12" md="4">
       <v-card flat class="mx-auto">
         <v-img
@@ -88,6 +89,7 @@
       </v-card>
     </v-col>
   </v-row>
+  </v-container>
 </template>
 
 <script>
