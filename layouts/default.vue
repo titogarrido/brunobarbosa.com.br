@@ -7,7 +7,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-img height="600px" src="/banner2.jpg"></v-img>
+    <v-img height="600px" src="/banner6.png"></v-img>
     <v-main class="mt-0 pt-0">
       <v-container>
         <nuxt />
@@ -49,7 +49,7 @@ export default {
     return {
       slides: [
         {
-          src: "/banner2.jpg"
+          src: "/banner6.png"
         },
         //{
         //  src:
