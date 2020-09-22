@@ -1,94 +1,18 @@
 <template>
-<v-container fluid>
-  <v-row style="background-color: #bdd252">
-    <v-col cols="12" md="4">
-      <v-card flat class="mx-auto">
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-        >
-          <v-card-title>Top 10 Australian beaches</v-card-title>
-        </v-img>
+  <v-container fluid>
+    <v-row>
+      <v-col cols="12" md="4">
+        <v-card outlined class="mx-auto" color="grey lighten-5" dark max-width="400">
 
-        <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
+          <v-card-text style="text-align:center;" class="headline font-weight-light green--text darken-4">
+            Especialidade
+          </v-card-text>
 
-        <v-card-text class="text--primary">
-          <div>Whitehaven Beach</div>
-
-          <div>Whitsunday Island, Whitsunday Islands</div>
-        </v-card-text>
-
-        <v-card-actions>
-          <v-btn color="orange" text>
-            Share
-          </v-btn>
-
-          <v-btn color="orange" text>
-            Explore
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-    <v-col cols="12" md="4">
-      <v-card class="mx-auto">
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-        >
-          <v-card-title>Top 10 Australian beaches</v-card-title>
-        </v-img>
-
-        <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
-        <v-card-text class="text--primary">
-          <div>Whitehaven Beach</div>
-
-          <div>Whitsunday Island, Whitsunday Islands</div>
-        </v-card-text>
-
-        <v-card-actions>
-          <v-btn color="orange" text>
-            Share
-          </v-btn>
-
-          <v-btn color="orange" text>
-            Explore
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-    <v-col cols="12" md="4">
-      <v-card class="mx-auto">
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-        >
-          <v-card-title>Top 10 Australian beaches</v-card-title>
-        </v-img>
-
-        <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
-        <v-card-text class="text--primary">
-          <div>Whitehaven Beach</div>
-
-          <div>Whitsunday Island, Whitsunday Islands</div>
-        </v-card-text>
-
-        <v-card-actions>
-          <v-btn color="orange" text>
-            Share
-          </v-btn>
-
-          <v-btn color="orange" text>
-            Explore
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="4"> </v-col>
+      <v-col cols="12" md="4"> </v-col>
+    </v-row>
   </v-container>
 </template>
 

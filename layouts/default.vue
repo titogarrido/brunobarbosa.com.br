@@ -7,11 +7,11 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-img height="600px" src="/banner6.png"></v-img>
+    <v-img height="600px" src="/banner10.png"></v-img>
     <v-main class="mt-0 pt-0">
         <nuxt />
         <v-container>
-          teste
+
         </v-container>
     </v-main>
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
