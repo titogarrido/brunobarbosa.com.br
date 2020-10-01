@@ -1,18 +1,16 @@
 <template>
   <v-app light>
-    <v-app-bar height="100px" hide-on-scroll app flat color="transparent">
+    <v-app-bar height="100px" flat color="transparent">
       <img class="ml-5" src="/logo-horizontal.png" height="60" />
       <v-spacer />
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-img height="600px" src="/banner10.png"></v-img>
     <v-main class="mt-0 pt-0">
-        <nuxt />
-        <v-container>
-
-        </v-container>
+      <v-container class="pa-0 ma-0" fluid>
+      <nuxt />
+      </v-container>
     </v-main>
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
       <v-list>
@@ -32,8 +30,8 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer class="grey darken-3 white--text">
+      <p>Copyright Bruno Barbosa&copy; 2020</p>
     </v-footer>
   </v-app>
 </template>
@@ -51,7 +49,7 @@ export default {
       slides: [
         {
           src: "/banner6.png"
-        },
+        }
         //{
         //  src:
         //    "http://localhost/unsafe/trim/smart/192.168.1.120:3000/banner3.jpg"
