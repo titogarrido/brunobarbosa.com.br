@@ -34,7 +34,7 @@
     </v-container>
     <v-container
       fluid
-      style="background-image: url('/consultorio1.jpeg'); opacity: 0.6;"
+      style="background-image: url('/consultorio1.jpeg'); opacity: 0.8;"
     >
       <v-row align="center" justify="center" class="mx-5">
         <v-col cols="12" md="12">
@@ -43,8 +43,8 @@
         <v-container class="white my-5 mx-5">
           <v-row align="center" justify="center">
             <v-col class="text-center" cols="12" md="4">
-              <v-avatar class="ma-3" size="125">
-                <v-img src="/dna4.png"></v-img>
+              <v-avatar class="ma-3" size="200">
+                <v-img src="/dna5.gif"></v-img>
               </v-avatar>
             </v-col>
             <v-col cols="12" md="8">
@@ -70,8 +70,8 @@
               </div>
             </v-col>
             <v-col class="text-center" cols="12" md="4">
-              <v-avatar class="ma-3" size="125">
-                <v-img src="/vitamin.png"></v-img>
+              <v-avatar class="ma-3" size="200">
+                <v-img src="/medicamentos4.jpg"></v-img>
               </v-avatar>
             </v-col>
           </v-row>
@@ -203,7 +203,7 @@
 
                       <v-btn
                         :disabled="!valid"
-                        color="success"
+                        color="primary"
                         class="mr-4"
                         @click="validate"
                       >
