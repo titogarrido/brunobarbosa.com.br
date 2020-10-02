@@ -184,7 +184,7 @@
     </v-container> -->
     <v-container id="contato" fluid class="grey">
       <v-row class="mt-5" align="center" justify="center">
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="12">
           <v-card light>
             <v-row>
               <v-col cols="12" md="6">
