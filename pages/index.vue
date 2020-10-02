@@ -20,7 +20,7 @@
           </v-avatar>
         </v-col>
         <v-col cols="12" md="8">
-          <div class="text-h5 text-left font-weight-medium mb-5">
+          <div id="sobre" class="text-h5 text-left font-weight-medium mb-5">
             Dr. Bruno Barbosa
           </div>
           <div class="text-h5  text-left font-weight-light">
@@ -38,7 +38,7 @@
     >
       <v-row align="center" justify="center" class="mx-5">
         <v-col cols="12" md="12">
-          <div class="text-center text-h4 mt-5">Procedimentos</div>
+          <div id="procedimentos" class="text-center text-h4 mt-5">Procedimentos</div>
         </v-col>
         <v-container class="white my-5 mx-5">
           <v-row align="center" justify="center">
@@ -182,7 +182,7 @@
         </v-col>
       </v-row>
     </v-container> -->
-    <v-container fluid class="grey">
+    <v-container id="contato" fluid class="grey">
       <v-row class="mt-5" align="center" justify="center">
         <v-col cols="12" md="10">
           <v-card light>
