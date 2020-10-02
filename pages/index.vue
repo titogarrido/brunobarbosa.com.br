@@ -38,7 +38,7 @@
     >
       <v-row align="center" justify="center" class="mx-5">
         <v-col cols="12" md="12">
-          <div class="text-center text-md-h2 text-xs-h3">Procedimentos</div>
+          <div class="text-center text-h4 mt-5">Procedimentos</div>
         </v-col>
         <v-container class="white my-5 mx-5">
           <v-row align="center" justify="center">
