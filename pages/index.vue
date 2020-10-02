@@ -1,10 +1,7 @@
 <template>
   <div>
     <v-img height="600px" src="/banner-rascunho2.jpeg">
-      <v-row
-        style="background-color: black; opacity: 0.6; margin-left:-20px; margin-right:-20px; height: 100%"
-        align="center"
-      >
+      <v-row style="height: 100%" align="center">
         <v-col cols="12" md="2"></v-col>
         <v-col class="text-center" cols="12" md="4">
           <v-img
@@ -17,11 +14,13 @@
 
     <v-container fluid>
       <v-row class="mx-5 my-5" align="center" justify="center">
-        <v-col cols="12" md="4">
-          <v-img src="/avatar7.jpg"></v-img>
+        <v-col class="text-center" cols="12" md="4">
+          <v-avatar size="300">
+            <v-img src="/avatar7.jpg"></v-img>
+          </v-avatar>
         </v-col>
         <v-col cols="12" md="8">
-          <div class="text-h5  text-left font-weight-medium mb-5">
+          <div class="text-h5 text-left font-weight-medium mb-5">
             Dr. Bruno Barbosa
           </div>
           <div class="text-h5  text-left font-weight-light">
@@ -35,61 +34,52 @@
     </v-container>
     <v-container
       fluid
-      style="background-image: url('/consultorio1.jpeg'); opacity: 0.6; height: 500px;"
+      style="background-image: url('/consultorio1.jpeg'); opacity: 0.6;"
     >
       <v-row align="center" justify="center" class="mx-5">
-        <v-col class="text-center" cols="12" md="12">
-          <span class="text-h2">Procedimentos</span>
+        <v-col cols="12" md="12">
+          <div class="text-center text-md-h2 text-xs-h3">Procedimentos</div>
         </v-col>
-        <v-col cols="12" md="6">
-          <v-card class="mx-5 mb-5">
-            <div class="d-flex flex-no-wrap justify-space-between">
-              <div>
-                <v-card-title class="headline mt-5 mb-5"
-                  >Teste Genético</v-card-title
-                >
-
-                <v-card-subtitle class="mb-5">
-                  A revolução genômica tem trazido cada vez mais acessível ao
-                  paciente uma compreensão de si mesmos através dos resultados
-                  dos testes genéticos, promovendo assim mais saúde,
-                  conhecimento e bem-estar.
-                </v-card-subtitle>
-              </div>
-
-              <v-avatar class="ma-3" size="125" tile>
-                <v-icon x-large>mdi-dna</v-icon>
+        <v-container class="white my-5 mx-5">
+          <v-row align="center" justify="center">
+            <v-col class="text-center" cols="12" md="4">
+              <v-avatar class="ma-3" size="125">
+                <v-img src="/dna4.png"></v-img>
               </v-avatar>
-            </div>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-card class="mx-5 mb-5">
-            <div class="d-flex flex-no-wrap justify-space-between">
-              <div>
-                <v-card-title class="headline mt-5 mb-5"
-                  >Protocolos Personalizados</v-card-title
-                >
-
-                <v-card-subtitle class="mb-5">
-                  A revolução genômica tem trazido cada vez mais acessível ao
-                  paciente uma compreensão de si mesmos através dos resultados
-                  dos testes genéticos, promovendo assim mais saúde,
-                  conhecimento e bem-estar.
-                </v-card-subtitle>
+            </v-col>
+            <v-col cols="12" md="8">
+              <div class="mr-5">
+                <h2>Teste Genético</h2>
+                A revolução genômica tem trazido cada vez mais acessível ao
+                paciente uma compreensão de si mesmos através dos resultados dos
+                testes genéticos, promovendo assim mais saúde, conhecimento e
+                bem-estar.
               </div>
-
-              <v-avatar class="ma-3" size="125" tile>
-                <v-icon x-large>mdi-playlist-check</v-icon>
+            </v-col>
+          </v-row>
+        </v-container>
+        <v-container class="white my-5 mx-5">
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="8">
+              <div class="ml-5">
+                <h2>Protocolos Personalizados</h2>
+                A revolução genômica tem trazido cada vez mais acessível ao
+                paciente uma compreensão de si mesmos através dos resultados dos
+                testes genéticos, promovendo assim mais saúde, conhecimento e
+                bem-estar.
+              </div>
+            </v-col>
+            <v-col class="text-center" cols="12" md="4">
+              <v-avatar class="ma-3" size="125">
+                <v-img src="/vitamin.png"></v-img>
               </v-avatar>
-            </div>
-          </v-card>
-        </v-col>
+            </v-col>
+          </v-row>
+        </v-container>
       </v-row>
     </v-container>
-    <v-container fluid class="grey lighten-3">
+    <!--   <v-container fluid class="grey lighten-3">
       <v-row
-        style="height: 500px;"
         class="mx-5 my-5"
         align="center"
         justify="center"
@@ -191,7 +181,7 @@
           </v-card>
         </v-col>
       </v-row>
-    </v-container>
+    </v-container> -->
     <v-container fluid class="black">
       <v-row class="mt-5" align="center" justify="center">
         <v-col cols="12" md="10">
@@ -226,20 +216,15 @@
 
               <v-col class="grey" cols="12" md="6">
                 <div class="ml-5 mt-5">
-                <p class="text-h5 text-uppercase">Telefones</p>
-                <p class="text-subtitle-1">71 9190-1146</p>
-                <p class="text-subtitle-1">11 XXXX-1146</p>
-                <p class="text-h5 text-uppercase">Email</p>
-                <p class="text-subtitle-1">bruno@drbrunobarbosa.com.br</p>
-                <p class="text-h5 text-uppercase">Endereços</p>
-                <p class="text-subtitle-1">
-                  Rua Borges Lagoa 1080, Sala 1210, Vila Clementino - São Paulo
-                  - SP
-                </p>
-                <p class="text-subtitle-1">
-                  Rua Borges Lagoa 1080, Sala 1210, Vila Clementino - São Paulo
-                  - SP
-                </p>
+                  <p class="text-h5 text-uppercase">Telefones</p>
+                  <p class="text-subtitle-1">(71) 3506-9937</p>
+                  <p class="text-subtitle-1">(71) 99603-9927</p>
+                  <p class="text-h5 text-uppercase">Email</p>
+                  <p class="text-subtitle-1">contato@drbrunobarbosa.com.br</p>
+                  <p class="text-h5 text-uppercase">Endereço</p>
+                  <p class="text-subtitle-1">
+                    Rua Arthur de Azevêdo Machado, 1459, Sala 2511, Edf. Internacional Trade Center, Costa Azul, Salvador - BA, CEP: 41770-790
+                  </p>
                 </div>
               </v-col>
             </v-row>
