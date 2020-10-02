@@ -37,7 +37,7 @@
         </v-row>
       </v-container>
       <v-spacer />
-      <v-btn color="#387f3f" icon @click.stop="rightDrawer = !rightDrawer">
+      <v-btn class="hidden-md-and-up" color="#387f3f" icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
