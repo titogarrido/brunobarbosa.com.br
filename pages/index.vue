@@ -182,50 +182,46 @@
         </v-col>
       </v-row>
     </v-container> -->
-    <v-container fluid class="black">
+    <v-container fluid class="grey">
       <v-row class="mt-5" align="center" justify="center">
         <v-col cols="12" md="10">
           <v-card light>
             <v-row>
               <v-col cols="12" md="6">
-                <div>
-                  <v-card-title class="display-1">Fale Conosco</v-card-title>
-
-                  <v-card-text>
-                    <v-form ref="form" v-model="valid" lazy-validation>
-                      <v-text-field label="Nome" required></v-text-field>
-
-                      <v-text-field label="E-mail" required></v-text-field>
-
-                      <v-text-field label="Telefone" required></v-text-field>
-
-                      <v-textarea label="Mensagem" required> </v-textarea>
-
-                      <v-btn
-                        :disabled="!valid"
-                        color="primary"
-                        class="mr-4"
-                        @click="validate"
-                      >
-                        Enviar
-                      </v-btn>
-                    </v-form>
-                  </v-card-text>
-                </div>
-              </v-col>
-
-              <v-col class="grey" cols="12" md="6">
                 <div class="ml-5 mt-5">
                   <p class="text-h5 text-uppercase">Telefones</p>
                   <p class="text-subtitle-1">(71) 3506-9937</p>
                   <p class="text-subtitle-1">(71) 99603-9927</p>
+                  <v-btn target="_blank" href="https://api.whatsapp.com/send?phone=5571996039927&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno%20Barbosa." class="mb-5" tile color="success">
+                      <v-icon left>
+                        mdi-whatsapp
+                      </v-icon>
+                      Agendar Consulta
+                    </v-btn>
                   <p class="text-h5 text-uppercase">Email</p>
                   <p class="text-subtitle-1">contato@drbrunobarbosa.com.br</p>
                   <p class="text-h5 text-uppercase">Endereço</p>
                   <p class="text-subtitle-1">
-                    Rua Arthur de Azevêdo Machado, 1459, Sala 2511, Edf. Internacional Trade Center, Costa Azul, Salvador - BA, CEP: 41770-790
+                    Rua Arthur de Azevêdo Machado, 1459, Sala 2511, Edf.
+                    Internacional Trade Center, Costa Azul, Salvador - BA, CEP:
+                    41770-790
                   </p>
                 </div>
+              </v-col>
+              <v-col cols="12" md="6">
+                <v-card-title class="text-h5 text-center text-uppercase">Onde Estamos</v-card-title>
+                <v-card-text class="text-center mt-5">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7627680552223!2d-38.45083428482303!3d-12.987019590845755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b0ed26c658b%3A0x9f5b7800c77eb974!2sInternacional%20Trade%20Center%20-%20ITC%20Salvador!5e0!3m2!1spt-BR!2sbr!4v1601671680658!5m2!1spt-BR!2sbr"
+                    width="300"
+                    height="300"
+                    frameborder="0"
+                    style="border:0;"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"
+                  ></iframe>
+                </v-card-text>
               </v-col>
             </v-row>
           </v-card>
